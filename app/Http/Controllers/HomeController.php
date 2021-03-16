@@ -7,11 +7,6 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
   public function index(){
-   // $data =
-   // [
-   // 'saluto' => 'Ciao a tutti'
-   // ];
-
    return view('home');
   }
 
